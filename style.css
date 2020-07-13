@@ -1,0 +1,106 @@
+/*external css*/
+/*h2{
+	color: red;
+}*/
+/*#id1{
+	color: red;
+}*/
+/*.id2{
+	color: yellow;
+}
+*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.backImg{
+	width: 100%;
+	height: 100vh;
+ 	background-color: blue;
+ 	background-image: url('b.jpg');
+ 	background-repeat: no-repeat; 
+ 	/*background-repeat: repeat; 
+ 	background-repeat: repeat-x; 
+ 	background-repeat: repeat-y; */
+ 	background-size: 100% 100%;
+ 	background-attachment: fixed;
+
+}
+.backImg1{
+	width: 100%;
+	height: 100vh;
+ 	background-color: blue;
+ 	background-image: url('c.jpg');
+ 	background-repeat: no-repeat; 
+ 	/*background-repeat: repeat; 
+ 	background-repeat: repeat-x; 
+ 	background-repeat: repeat-y; */
+ 	background-size: 100% 100%;
+ 	background-attachment: fixed;
+
+}
+#fontcss{
+	font-family: 'Mansalva', cursive;
+	font-variant: small-caps;
+	font-size: 2em;
+	font-style: italic;
+	/*font-weight: 500;*/
+   	font-weight: bold;
+
+}
+#textcss{
+		font-family: 'Mansalva', cursive;
+		color: red;
+		letter-spacing: 2px;
+		word-spacing: 5px;
+		direction: ltr;/*align =left to right as well as we can use rtl also */
+       	text-indent: 50px;
+       	text-align: center;
+       	text-transform: capitalize;
+}
+
+a:link{
+	color: red;
+}
+a:visited{
+	color: green;
+}
+a:hover{
+	color: yellow;
+}
+a:active{
+	color: blue;
+}
+.bordercss{
+	width: 500px;
+	height: 300px;
+	background-color: red;
+	/*border-width: 5px;
+	border-color: black;
+	border-style: solid;*/
+	border:5px dashed black;
+	border-radius: 18px;
+}
+ul{
+	list-style-type: square;
+}
+ol{
+	list-style-type:lower-roman;;
+}
+.boxmodel{
+width: 400px;
+height: 200px;
+background-color: red;
+}
+input{
+	/*padding: 5px 5px 5px 5px;  */            /*pading from top,right,bottom,left*/
+	padding: 5px;
+	margin: 10px;
+}
+.scrollbar{
+	width: 200px;
+	height: 100px;
+	border:1px solid pink;
+	overflow: scroll;
+}
